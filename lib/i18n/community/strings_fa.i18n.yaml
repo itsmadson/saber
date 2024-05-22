@@ -1,30 +1,30 @@
 common:
   cancel: لغو
-  done(OUTDATED): انجام شده
-  continueBtn(OUTDATED): ادامه هید
+  done(OUTDATED): کامل شد
+  continueBtn(OUTDATED): ادامه 
 home:
   tabs:
-    home: خانه
-    browse: مرور کردن
-    whiteboard: وایت برد
+    home: صفحه اصلی
+    browse: باز کردن 
+    whiteboard: تخته
     settings: تنظیمات
   titles:
-    home: یادداشت های اخیر
-    browse: مرور کردن
-    whiteboard: وایت برد
+    home: صفحه اصلی
+    browse: دیدن
+    whiteboard: تخته
     settings: تنظیمات
   tooltips:
     newNote: یادداشت جدید
     showUpdateDialog: نمایش به روز رسانی
-    exportNote: صدور یادداشت
+    exportNote: ذخیره یادداشت
   create:
     newNote: یادداشت جدید
-    importNote: یادداشت وارد کنید
+    importNote: وارد کردن یادداشت
   welcome: خوش آمدید
   invalidFormat: فایلی که انتخاب کرده اید پشتیبانی نمی شود. لطفاً یک فایل sbn، sbn2، sba یا pdf را انتخاب کنید.
   noFiles: فایلی پیدا نشد
   createNewNote: برای ساخت یادداشت دکمه + را بزنید
-  backFolder: به پوشه قبلی برگردید
+  backFolder: پوشه قبلی
   newFolder:
     newFolder: پوشه جدید
     folderName: نام پوشه
@@ -35,9 +35,9 @@ home:
   renameNote:
     renameNote: تغییر نام یادداشت
     noteName: نام یادداشت
-    rename: تغییر نام دهید
+    rename: تغییر نام
     noteNameEmpty: نام یادداشت نمی‌تواند خالی باشد
-    noteNameContainsSlash: نام یادداشت نمی‌تواند دارای اسلش باشد
+    noteNameContainsSlash: نام یادداشت نمی‌تواند دارای / باشد
     noteNameExists: یادداشتی با این نام از قبل وجود دارد
   moveNote:
     moveNote: انتقال یادداشت
@@ -77,14 +77,14 @@ settings:
     shouldCheckForUpdates: به‌روزرسانی‌ برنامه را به‌طور خودکار بررسی کنید
     shouldAlwaysAlertForUpdates: به روز رسانی سریع تر
     disableAds: غیرفعال کردن تبلیغات
-    changeAdsConsent: تغییر رضایت تبلیغات
+    changeAdsConsent: اجازه تبلیغات
     allowInsecureConnections: به اتصالات ناامن اجازه دهید
     editorToolbarAlignment: تراز کردن نوار ابزار ویرایشگر
     editorToolbarShowInFullscreen: نوار ابزار ویرایشگر را در حالت تمام صفحه نمایش دهید
     editorAutoInvert: معکوس کردن رنگ یادداشت ها در حالت تاریک
     preferGreyscale: رنگ های خاکستری را در اولویت قرار دهید
     maxImageSize: حداکثر اندازه تصویر
-    autoClearWhiteboardOnExit: پس از خروج از برنامه، وایت برد پاک شود
+    autoClearWhiteboardOnExit: پس از خروج از برنامه، تخته پاک شود
     disableEraserAfterUse: پاک کن را به صورت خودکار غیرفعال کنید
     hideFingerDrawingToggle: ضامن طراحی انگشت را پنهان کنید
     editorPromptRename: از شما می خواهد که نام یادداشت های جدید را تغییر دهید
@@ -287,8 +287,8 @@ editor:
     duplicatePage: تکرار صفحه
     deletePage: حذف صفحه
     lineHeight: ارتفاع خط
-    backgroundImageFit: مناسب تصویر پس زمینه
-    backgroundPattern: الگوی پس زمینه
+    backgroundImageFit: هم اندازه کردن پس زمینه
+    backgroundPattern: تکسچر پس زمینه
     import: واردکردن
     watchServer(OUTDATED): مراقب به روز رسانی ها در سرور باشید
     watchServerReadOnly(OUTDATED): هنگام تماشای سرور، ویرایش غیرفعال است
@@ -301,21 +301,21 @@ editor:
       college: قوانین کالج
       collegeRtl: تحت حاکمیت دانشگاهی (معکوس)
       lined: خط کشی شده
-      grid: توری
+      grid: جدول
       dots: نقطه ای
       staffs: کارکنان
       tablature: جدول بندی
-      cornell: کرنل
+      cornell: گوشه
     lineHeightDescription(OUTDATED): همچنین اندازه متن را برای یادداشت های تایپ شده کنترل می کند
   newerFileFormat:
-    readOnlyMode: حالت فقط خواندنی
+    readOnlyMode: فقط خواندن
     title: این یادداشت با استفاده از نسخه جدیدتر برنامه ویرایش شده است
     subtitle: ویرایش این یادداشت ممکن است منجر به از بین رفتن برخی از اطلاعات شود. آیا می خواهید این را نادیده بگیرید و به هر حال آن را ویرایش کنید؟
     allowEditing: اجازه ویرایش
   quill:
     typeSomething: اینجا چیزی تایپ کنید...
   hud:
-    unlockZoom: قفل زوم را باز کنید
+    unlockZoom: باز کردن قفل زوم
     lockZoom: قفل زوم
     unlockSingleFingerPan: تحرک تک انگشتی را فعال کنید
     lockSingleFingerPan: تحرک تک انگشتی را غیرفعال کنید
